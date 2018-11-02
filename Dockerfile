@@ -1,2 +1,3 @@
 FROM ubuntu:15.04
-CMD python app.py
+COPY . /app
+CMD python /app/app.py
